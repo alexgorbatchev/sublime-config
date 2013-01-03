@@ -1,0 +1,20 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Alignment",
+		"All Autocomplete",
+		"CoffeeScript",
+		"CoffeeScript Function Finder",
+		"Git",
+		"Jade",
+		"LESS",
+		"LESS-build",
+		"Nodejs",
+		"Package Control",
+		"Pretty JSON",
+		"SideBarEnhancements",
+		"Sublimerge",
+		"VintageEx"
+	]
+}

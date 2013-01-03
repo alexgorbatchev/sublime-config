@@ -1,0 +1,19 @@
+[
+   {
+      "keys"   : [",", "t"],
+      "command": "alignment",
+      "context":
+      [
+        { "key": "setting.command_mode" },
+        { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": false }
+      ]
+    }
+   , {
+      "keys"   : [",", "c"],
+      "command": "coffee_compile",
+      "context":
+      [
+        { "key": "setting.command_mode" }
+      ]
+    }
+]
