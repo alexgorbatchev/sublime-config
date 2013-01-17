@@ -19,7 +19,7 @@
 		"CoffeeScript"
 	],
 	"bold_folder_labels": false,
-	"color_scheme": "Packages/Color Scheme - Default/Pastels on Dark.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"draw_white_space": "selection",
 	"font_size": 10.0,
 	"highlight_line": true,
