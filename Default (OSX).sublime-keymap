@@ -8,12 +8,17 @@
         { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": false }
       ]
     }
+
    , {
-      "keys"   : [",", "c"],
-      "command": "coffee_compile",
+      "keys"    : [",", "c"],
+      "command" : "compile_and_display",
+      "args"    : {"opt": "-p"},
       "context":
       [
         { "key": "setting.command_mode" }
       ]
     }
+
+    , { "keys": ["alt+shift+]"], "command": "next_result" }
+    , { "keys": ["alt+shift+["], "command": "prev_result" }
 ]

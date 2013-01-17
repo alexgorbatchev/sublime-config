@@ -10,11 +10,14 @@
 		"Jade",
 		"LESS",
 		"LESS-build",
+		"LiveReload",
 		"Nodejs",
 		"Package Control",
 		"Pretty JSON",
 		"SideBarEnhancements",
 		"Sublimerge",
+		"SublimeServer",
+		"Theme - Soda",
 		"VintageEx"
 	]
 }

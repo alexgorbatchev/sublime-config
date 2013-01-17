@@ -35,7 +35,7 @@
 	*/
 ,	"watchOutputMode": "panel"
 
-,	"watchAutoStart": false
+,	"watchAutoStart": true
 
 	/*
 	Output success (compiled) or failure (error) messages, or both, or neither...

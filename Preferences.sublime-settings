@@ -4,31 +4,35 @@
 	[
 		"?",
 		"=",
-		":",","
+		":",
+		","
 	],
 	"alignment_space_chars":
 	[
 		"?",
 		"=",
-		":",","
+		":",
+		","
 	],
 	"auto_upgrade_ignore":
 	[
 		"CoffeeScript"
 	],
+	"bold_folder_labels": false,
+	"color_scheme": "Packages/Color Scheme - Default/Pastels on Dark.tmTheme",
 	"draw_white_space": "selection",
 	"font_size": 10.0,
+	"highlight_line": true,
 	"ignored_packages":
 	[
 	],
+	"indent_to_bracket": true,
+	"save_on_focus_lost": true,
+	"shift_tab_unindent": true,
 	"tab_size": 2,
+	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"vintage_start_in_command_mode": true,
-	"bold_folder_labels": false,
 	"tree_animation_enabled": false,
-  "save_on_focus_lost": true,
-  "trim_trailing_white_space_on_save": true,
-  "highlight_line": true,
-  "indent_to_bracket": true,
-	"shift_tab_unindent": true
+	"trim_trailing_white_space_on_save": true,
+	"vintage_start_in_command_mode": true
 }
