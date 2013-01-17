@@ -4,6 +4,7 @@
 	[
 		"Alignment",
 		"All Autocomplete",
+		"BracketHighlighter",
 		"CoffeeScript",
 		"CoffeeScript Function Finder",
 		"Git",
@@ -15,6 +16,7 @@
 		"Package Control",
 		"Pretty JSON",
 		"SideBarEnhancements",
+		"SublimeREPL",
 		"Sublimerge",
 		"SublimeServer",
 		"Theme - Soda",
