@@ -1,5 +1,6 @@
 {
   "cmd": ["coffee", "$file"]
+  , "env": { "NOCOLOR": "1" }
   , "selector": "source.coffee"
   , "working_dir": "${project_path:${folder:${file_path}}}"
 }
