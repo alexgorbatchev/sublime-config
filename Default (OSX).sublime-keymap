@@ -13,12 +13,27 @@
       "keys"    : [",", "c"],
       "command" : "compile_and_display",
       "args"    : {"opt": "-p"},
-      "context":
-      [
-        { "key": "setting.command_mode" }
-      ]
+      "context": [ {  "key": "setting.command_mode" } ]
     }
 
     , { "keys": ["alt+shift+]"], "command": "next_result" }
     , { "keys": ["alt+shift+["], "command": "prev_result" }
+
+    //
+    // Origami
+    //
+    , { "keys": ["super+up"], "command": "travel_to_pane", "args": {"direction": "up"}, "context": [ { "key": "setting.command_mode" } ] }
+    , { "keys": ["super+right"], "command": "travel_to_pane", "args": {"direction": "right"}, "context": [ { "key": "setting.command_mode" } ] }
+    , { "keys": ["super+down"], "command": "travel_to_pane", "args": {"direction": "down"}, "context": [ { "key": "setting.command_mode" } ] }
+    , { "keys": ["super+left"], "command": "travel_to_pane", "args": {"direction": "left"}, "context": [ { "key": "setting.command_mode" } ] }
+
+    , { "keys": ["super+shift+up"], "command": "carry_file_to_pane", "args": {"direction": "up"}, "context": [ { "key": "setting.command_mode" } ] }
+    , { "keys": ["super+shift+right"], "command": "carry_file_to_pane", "args": {"direction": "right"}, "context": [ { "key": "setting.command_mode" } ] }
+    , { "keys": ["super+shift+down"], "command": "carry_file_to_pane", "args": {"direction": "down"}, "context": [ { "key": "setting.command_mode" } ] }
+    , { "keys": ["super+shift+left"], "command": "carry_file_to_pane", "args": {"direction": "left"}, "context": [ { "key": "setting.command_mode" } ] }
+
+    , { "keys": ["super+alt+up"], "command": "clone_file_to_pane", "args": {"direction": "up"}, "context": [ { "key": "setting.command_mode" } ] }
+    , { "keys": ["super+alt+right"], "command": "clone_file_to_pane", "args": {"direction": "right"}, "context": [ { "key": "setting.command_mode" } ] }
+    , { "keys": ["super+alt+down"], "command": "clone_file_to_pane", "args": {"direction": "down"}, "context": [ { "key": "setting.command_mode" } ] }
+    , { "keys": ["super+alt+left"], "command": "clone_file_to_pane", "args": {"direction": "left"}, "context": [ { "key": "setting.command_mode" } ] }
 ]
