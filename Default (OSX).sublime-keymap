@@ -19,6 +19,9 @@
     , { "keys": ["alt+shift+]"], "command": "next_result" }
     , { "keys": ["alt+shift+["], "command": "prev_result" }
 
+    , { "keys": ["super+d"], "command": "find_under_expand" }
+    , { "keys": ["super+shift+d"], "command": "find_under_expand_skip" }
+
     //
     // Origami
     //
