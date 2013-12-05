@@ -1,0 +1,11 @@
+{
+  /* add this to project config for CoffeeScript
+
+  "settings": {
+    "ctags_command": "ctags --exclude=node_modules --exclude=.git --exclude=db --exclude=.jhw-cache --exclude=ruby_gems --exclude=public/build -R -f .tags"
+  }
+
+  */
+
+  "autocomplete": true
+}
