@@ -2,7 +2,7 @@ import os
 
 LOCAL = '/usr/local/bin:/usr/local/sbin:'
 HOME = '/Users/alexgorbatchev'
-NVM = '/Users/alexgorbatchev/.nvm/v0.8.14/bin'
+NVM = '/Users/alexgorbatchev/.nvm/v0.10.5/bin'
 
 # Sublime's default path is
 # /usr/bin:/bin:/usr/sbin:/sbin

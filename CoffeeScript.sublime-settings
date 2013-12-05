@@ -3,7 +3,7 @@
 		The directory containing your coffee binary. Usually
 		/usr/local/bin.
 	*/
-	"binDir": "/Users/alexgorbatchev/.nvm/v0.8.14/bin"
+	"binDir": "/Users/alexgorbatchev/.nvm/v0.10.5/bin"
 
 	/*
 		Compile without the top-level function wrapper (coffee -b).

@@ -36,4 +36,6 @@
     , { "keys": ["super+alt+right"], "command": "clone_file_to_pane", "args": {"direction": "right"}, "context": [ { "key": "setting.command_mode" } ] }
     , { "keys": ["super+alt+down"], "command": "clone_file_to_pane", "args": {"direction": "down"}, "context": [ { "key": "setting.command_mode" } ] }
     , { "keys": ["super+alt+left"], "command": "clone_file_to_pane", "args": {"direction": "left"}, "context": [ { "key": "setting.command_mode" } ] }
+
+    , { "keys": ["super+u", "super+i"], "command": "insert_date", "args": {"format": "iso"} }
 ]
