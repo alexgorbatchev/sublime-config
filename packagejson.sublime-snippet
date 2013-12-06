@@ -1,0 +1,39 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+{
+  "name": "$1",
+  "version": "0.5.0",
+  "description": "$2",
+  "author": {
+    "name": "Alex Gorbatchev",
+    "email": "alex.gorbatchev@gmail.com"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/*.spec.coffee",
+    "pretest": "./node_modules/.bin/coffee --bare --compile --output ./lib src/*.coffee"
+  },
+  "repository" :
+  {
+    "type" : "git",
+    "url" : "git://github.com/alexgorbatchev/$1.git"
+  },
+  "license" : "MIT",
+  "keywords" : [],
+  "devDependencies": {
+    "coffee-script": "~1.6.3",
+    "sinon-chai": "~2.4.0",
+    "chai": "~1.8.1",
+    "sinon": "~1.7.3",
+    "mocha": "~1.14.0",
+    "coffee-errors": "~0.8.4"
+  }
+}
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>package-json</tabTrigger>
+  <description>package.json boilerplate</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.json</scope>
+</snippet>

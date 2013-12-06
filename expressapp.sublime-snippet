@@ -1,0 +1,23 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+express = require 'express'
+
+PORT = process.env.PORT or 3000
+module.exports = app = express()
+
+app.get '/', (req, res, next) ->
+  res.send 'ok'
+
+app.listen PORT
+
+console.log "Listening on #{PORT}"
+
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>express-app</tabTrigger>
+  <description>Boilerplate express app</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.coffee</scope>
+</snippet>
