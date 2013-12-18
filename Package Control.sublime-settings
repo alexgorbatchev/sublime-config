@@ -1,35 +1,22 @@
 {
-	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
 		"Alignment",
 		"All Autocomplete",
-		"Arduino-like IDE",
 		"Better CoffeeScript",
 		"BracketHighlighter",
-		"CoffeeComplete Plus (Autocompletion)",
+		"ColorSchemeSelector",
 		"CTags",
-		"Emmet",
 		"Git",
-		"Gitignore",
-		"Hacker News Reader",
-		"HTML Mustache",
-		"InsertDate",
+		"Git GUI Clients",
+		"GitGutter",
 		"Jade",
-		"JsMinifier",
 		"LESS",
-		"LESS-build",
-		"Nodejs",
-		"Open-Include",
 		"Origami",
-		"Package Control",
-		"Pretty JSON",
 		"Sass",
 		"SideBarEnhancements",
 		"SnippetMaker",
 		"Stylus",
-		"SublimeLinter",
-		"Theme - Soda",
-		"VintageEx"
+		"SyncedSideBar"
 	]
 }

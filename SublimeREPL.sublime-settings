@@ -1,5 +1,0 @@
-{
-  "default_extend_env": {
-    "PATH": "{PATH}:/Users/alexgorbatchev/.nvm/v0.8.11/bin"
-  }
-}

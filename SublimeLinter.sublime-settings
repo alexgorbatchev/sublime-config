@@ -1,7 +1,0 @@
-{
-  "sublimelinter": "save-only",
-  // "sublimelinter_delay": 2,
-  "sublimelinter_mark_style": "none",
-  "sublimelinter_fill_outlines": false,
-  "sublimelinter_gutter_marks": true
-}

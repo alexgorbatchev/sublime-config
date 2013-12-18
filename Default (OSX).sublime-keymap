@@ -12,8 +12,8 @@
    , {
       "keys"    : [",", "c"],
       "command" : "compile_and_display",
-      "args"    : {"opt": "-p"},
-      "context": [ {  "key": "setting.command_mode" } ]
+      "args"    : { "opt": "-p" },
+      "context" : [ { "key": "setting.command_mode" } ]
     }
 
     , { "keys": ["alt+shift+]"], "command": "next_result" }
@@ -40,5 +40,35 @@
     , { "keys": ["super+alt+down"], "command": "clone_file_to_pane", "args": {"direction": "down"}, "context": [ { "key": "setting.command_mode" } ] }
     , { "keys": ["super+alt+left"], "command": "clone_file_to_pane", "args": {"direction": "left"}, "context": [ { "key": "setting.command_mode" } ] }
 
-    , { "keys": ["super+u", "super+i"], "command": "insert_date", "args": {"format": "iso"} }
+    // , { "keys": ["super+u", "super+i"], "command": "insert_date", "args": {"format": "iso"} }
+
+    // Select text between brackets
+    , {
+        "keys": [",", "["],
+        "command": "bh_key",
+        "args":
+        {
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect"
+            }
+        }
+    }
+
+    // swap quotes
+    , {
+        "keys": [",", "\""],
+        "command": "bh_key",
+        "args":
+        {
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["single_quote", "double_quote", "py_single_quote", "py_double_quote"],
+                "command": "bh_modules.swapquotes"
+            }
+        }
+    },
 ]
