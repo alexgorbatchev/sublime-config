@@ -14,7 +14,8 @@
 		":",
 		","
 	],
-	"bold_folder_labels": false,
+	"bold_folder_labels": true,
+	"fade_fold_buttons": true,
 	"caret_style": "wide",
 	"drag_text": false,
 	"draw_white_space": "selection",
@@ -35,7 +36,6 @@
 	"line_padding_top": -1,
 	"save_on_focus_lost": true,
 	"shift_tab_unindent": true,
-	"soda_folder_icons": true,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": false,
