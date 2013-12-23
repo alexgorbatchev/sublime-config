@@ -70,5 +70,8 @@
                 "command": "bh_modules.swapquotes"
             }
         }
-    },
+    }
+
+    // Shell commands
+    , {"keys": [",", "u", "i"], "command": "shell_command", "args": {"command": "date +%FT%T%z"}}
 ]
