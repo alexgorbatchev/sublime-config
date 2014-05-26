@@ -1,7 +1,13 @@
 <snippet>
   <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
-# $1 [![Dependency status](https://david-dm.org/alexgorbatchev/$1.png)](https://david-dm.org/alexgorbatchev/$1) [![Build status](https://secure.travis-ci.org/alexgorbatchev/$1.png)](http://travis-ci.org/alexgorbatchev/$1)
+# $1
+
+[![Dependency status](https://david-dm.org/alexgorbatchev/$1.svg)](https://david-dm.org/alexgorbatchev/$1)
+[![devDependency Status](https://david-dm.org/alexgorbatchev/generator-coffee-module/dev-status.svg)](https://david-dm.org/alexgorbatchev/generator-coffee-module#info=devDependencies)
+[![Build Status](https://secure.travis-ci.org/alexgorbatchev/$1.svg?branch=master)](https://travis-ci.org/alexgorbatchev/$1)
+
+[[NPM](https://nodei.co/npm/generator-coffee-module.svg)](https://npmjs.org/package/$1)
 
 ## Installation
 

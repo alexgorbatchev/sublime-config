@@ -1,0 +1,16 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+[![Dependency status](https://david-dm.org/alexgorbatchev/$1.svg)](https://david-dm.org/alexgorbatchev/$1)
+[![devDependency Status](https://david-dm.org/alexgorbatchev/$1/dev-status.svg)](https://david-dm.org/alexgorbatchev/$1#info=devDependencies)
+[![Build Status](https://secure.travis-ci.org/alexgorbatchev/$1.svg?branch=master)](https://travis-ci.org/alexgorbatchev/$1)
+
+[![NPM](https://nodei.co/npm/$1.svg)](https://npmjs.org/package/$1)
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>readme-npm-badges</tabTrigger>
+  <description>README NPM header</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.markdown</scope>
+</snippet>
