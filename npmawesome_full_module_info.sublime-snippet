@@ -1,6 +1,6 @@
 <snippet>
   <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
-  <content><![CDATA[[${1:name}](http://browsenpm.org/package/${2:package}) (GitHub: [${3:account}/$2](https://github.com/${3:account}/$2, License: MIT) ]]></content>
+  <content><![CDATA[[${1:package}](http://browsenpm.org/package/${1:package}) (GitHub: [${2:account}/$1](https://github.com/${2:account}/$2, License: MIT)]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>module</tabTrigger>
   <description>full module info</description>
