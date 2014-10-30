@@ -5,10 +5,10 @@
 
 [![GitTip](http://img.shields.io/gittip/alexgorbatchev.svg)](https://www.gittip.com/alexgorbatchev/)
 [![Dependency status](https://david-dm.org/alexgorbatchev/$1.svg)](https://david-dm.org/alexgorbatchev/$1)
-[![devDependency Status](https://david-dm.org/alexgorbatchev/generator-coffee-module/dev-status.svg)](https://david-dm.org/alexgorbatchev/generator-coffee-module#info=devDependencies)
+[![devDependency Status](https://david-dm.org/alexgorbatchev/$1/dev-status.svg)](https://david-dm.org/alexgorbatchev/$1#info=devDependencies)
 [![Build Status](https://secure.travis-ci.org/alexgorbatchev/$1.svg?branch=master)](https://travis-ci.org/alexgorbatchev/$1)
 
-[[NPM](https://nodei.co/npm/generator-coffee-module.svg)](https://npmjs.org/package/$1)
+[![NPM](https://nodei.co/npm/$1.svg)](https://npmjs.org/package/$1)
 
 ## Installation
 
