@@ -1,14 +1,18 @@
 {
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"Alignment",
 		"All Autocomplete",
 		"Arduino-like IDE",
+		"Babel",
 		"Better CoffeeScript",
 		"BracketHighlighter",
 		"Case Conversion",
 		"ColorSchemeSelector",
-		"CTags",
 		"DashDoc",
 		"EasyMotion",
 		"Git",
@@ -19,20 +23,19 @@
 		"GotoTab",
 		"Handlebars",
 		"Jade",
-		"JavaScriptNext - ES6 Syntax",
 		"LESS",
 		"LiveScript",
-		"LoremIpsum",
 		"Markdown Preview",
 		"Open-Include",
 		"Origami",
+		"Package Control",
 		"PlainTasks",
-		"Require Node.js Modules Helper",
 		"Sass",
-		"Shell Command",
+		"ShellCommand",
 		"SideBarEnhancements",
 		"SnippetMaker",
 		"Stylus",
-		"SyncedSideBar"
+		"SyncedSideBar",
+		"TypescriptCompletion"
 	]
 }

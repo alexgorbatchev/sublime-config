@@ -75,6 +75,7 @@
     // Shell commands
     , {"keys": [",", "u", "i"], "command": "shell_command", "args": {"command": "date +%FT%T%z"}}
 
-    // PlainTasks
-    , { "keys": ["ctrl+d"], "command": "plain_tasks_complete","context": [{ "key": "selector", "operator": "equal", "operand": "text.todo" }] }
+    // Make sure this always works (TypeScript seems to have this broken somehow)
+    , { "keys": ["super+v"], "command": "paste" }
+    , { "keys": ["super+shift+v"], "command": "paste_and_indent" }
 ]
